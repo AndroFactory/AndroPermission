@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
+
+
+group='com.github.AndroFactory.AndroPermission'
+
+dependencies {
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    api "javax.inject:javax.inject:1"
+    api 'io.reactivex.rxjava2:rxjava:2.1.8'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
