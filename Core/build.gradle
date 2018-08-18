@@ -5,7 +5,6 @@ apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
 group='com.github.AndroFactory.AndroPermission'
 
 dependencies {
-    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
     api "javax.inject:javax.inject:1"
     api 'io.reactivex.rxjava2:rxjava:2.1.8'
 }
