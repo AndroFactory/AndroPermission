@@ -8,7 +8,7 @@ class PermissionFactory {
 
     companion object {
 
-        fun createPermiManager(context: Context): PermissionManager {
+        fun createPermissionManager(context: Context): PermissionManager {
             return PermissionManagerImpl(context)
         }
     }
