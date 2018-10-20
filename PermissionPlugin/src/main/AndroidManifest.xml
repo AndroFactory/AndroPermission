@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="andro.permission.plugin" >
+
+    <application>
+        <activity
+            android:name="andro.permission.plugin.PermissionHelperActivity"
+            android:theme="@style/PermissionTheme"/>
+    </application>
+</manifest>

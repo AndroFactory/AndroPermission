@@ -1,1 +1,1 @@
-include ':Sample', ':Core', 'Permission'
+include ':Sample', ':PermissionCore', 'PermissionPlugin'
